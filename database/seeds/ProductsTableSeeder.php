@@ -21,6 +21,7 @@ class ProductsTableSeeder extends Seeder
         	'description' 	=> 'Macbook Pro',
         	'category_id' 	=> 1,
         	'brand_id' 		=> 1,
+            'product_code'  => 'FA4532',
         	'image_path' 	=> 'macbook-pro.png'
         ]);
 
@@ -33,6 +34,7 @@ class ProductsTableSeeder extends Seeder
             'description' => 'Dell Vostro 3557',
             'category_id' => 1,
             'brand_id' => 2,
+            'product_code'  => 'FA3518',
             'image_path' => 'dell-v3557.png'
         ]);
 
@@ -45,6 +47,7 @@ class ProductsTableSeeder extends Seeder
             'description' => 'iPhone 11 Pro',
             'category_id' => 2,
             'brand_id' => 1,
+            'product_code'  => 'FA1111',
             'image_path' => 'iphone-11-pro.png'
         ]);
 
@@ -57,6 +60,7 @@ class ProductsTableSeeder extends Seeder
             'description' => 'Remax 610D Headset',
             'category_id' => 3,
             'brand_id' => 3,
+            'product_code'  => 'FA1112',
             'image_path' => 'remax-610d.jpg'
         ]);
         
@@ -69,6 +73,7 @@ class ProductsTableSeeder extends Seeder
             'description' => 'Samsung LED TV',
             'category_id' => 4,
             'brand_id' => 4,
+            'product_code'  => 'FA1113',
             'image_path' => 'samsung-led-24.png'
         ]);
 
@@ -81,6 +86,7 @@ class ProductsTableSeeder extends Seeder
             'description' => 'Samsung Digital Camera',
             'category_id' => 5,
             'brand_id' => 4,
+            'product_code'  => 'FA1114',
             'image_path' => 'samsung-mv800.jpg'
         ]);
 
@@ -93,6 +99,7 @@ class ProductsTableSeeder extends Seeder
             'description' => 'Huawei GR 5 2017',
             'category_id' => 2,
             'brand_id' => 5,
+            'product_code'  => 'FA1115',
             'image_path' => 'gr5-2017.jpg'
         ]);
     }

@@ -21,6 +21,7 @@ class CreateProductsTable extends Migration
             $table->double('price');
             $table->double('shipping_cost');
             $table->text('description');
+            $table->text('product_code');
             $table->integer('category_id');
             $table->unsignedInteger('brand_id')->unsigned();
             $table->string('image_path');
